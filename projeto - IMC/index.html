@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Inicio do sistema, onde iremos colocar titulo e linkar-->
+<title>IMC</title> <!--Titulo do sistema-->
+<link rel="stylesheet" href="style.css"> <!--Conectando com o css, para fazer o designer do sistema-->
+
+
+</head> <!--fim do inico-->
+
+<body> <!--Corpo do nosso sistema, aqui vai os codigos-->
+<main> <!--Principal-->
+<div class="container"> <!-- Inicio do container -->
+    <div class="title">Calculadora - IMC</div>
+    <div class="input">
+        <label>Nome:</label> <!-- Onde o usuario vai colocar o nome dele! -->
+        <input type="text" id="nome"> <!-- declaração do id nome -->
+    </div>
+    <div class="input">
+        <label>Altura:</label> <!-- Onde o usuario vai colocar a altura dele(a)! -->
+        <input type="number" id="altura"> <!-- declaração do id altura -->
+
+    </div>
+    <div class="input">
+        <label>Peso:</label> <!-- Onde o usuario vai colocar o peso dele(a)! -->
+        <input type="number" id="peso">  <!-- declaração do id peso -->
+    </div>
+
+    <div class="input">
+        <label>Aceita todos os termos?</label> <!-- Onde o usuario vai colocar o peso dele(a)! -->
+        <input type="checkbox" value="fem"  <!-- declaração do id peso -->
+    </div>
+
+    <button id='calcular'>Calcular</button> <!--Botão que o usuario vai usar para calcular o IMC-->
+
+    <div class="result" id='resultado'></div>  <!--Tela onde vai aparecer o resultado-->
+
+
+
+</div><!-- Fim do container -->
+</main><!--fim da principal-->
+
+<script src="./imc.js"></script>
+</body>
+
+
+</html>
